@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  /* equal space milne ke liye */
+  justify-content: space-evenly;
+}
+
+/* box 1 */
+.nav_logo {
+  height: 50px;
+  width: 100px;
+}
+.logo {
+  background-image: url(assets/img/amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid #fff;
+}
+/* *** box 2**** */
+/* .nav_address {
+  display: flex;
+} */
+
+.nav_address .border {
+  border: 1px solid #fff;
+}
+.nav_address .border:hover {
+  border: 1px solid transparent;
+}
+.add_first {
+  font-size: 0.85rem;
+  color: #cccccc;
+  margin-left: 15px;
+}
+.add_second {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add_icon {
+  display: flex;
+  align-items: center;
+}
+
+/* box 3 */
+.nav_search {
+  width: 620px;
+  height: 40px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  align-items: center;
+}
+.nav_search:hover {
+  border: 3px solid #febd68;
+}
+
+.search_select {
+  background-color: #f3f3f3;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search_input {
+  width: 700px;
+  height: 40px;
+  font-size: 1rem;
+  border: none;
+}
+.search_icon {
+  width: 45px;
+  height: 40px;
+  border: none;
+}
+
+.search_icon {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* iconsize */
+  font-size: 1.2rem;
+  background-color: #febd68;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  /* background-color: rgb(255, 183, 74); */
+  color: #0f1111;
+}
+
+/* box 4 */
+.sign_in p span {
+  font-size: 0.75rem;
+}
+
+.nav_second {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sign_in .border {
+  border: 2px solid #fff;
+}
+
+.sign_in .border:hover {
+  border: 2px solid transparent;
+}
+
+/* box 5 */
+
+.nav_return {
+  font-size: 0.75rem;
+}
+.nav_third {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.nav_return .border {
+  border: 2px solid #fff;
+}
+
+.nav_return .border:hover {
+  border: 2px solid transparent;
+}
+
+/* box 6 cart */
+
+.nav_cart i {
+  font-size: 30px;
+  align-items: center;
+}
+.nav_cart {
+  display: flex;
+}
+.nav_cart p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+
+.nav_cart .border {
+  border: 1px solid #fff;
+}
+.nav_cart .border:hover {
+  border: 1px solid transparent;
+}
+
+/* ////////// panel ////////// */
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel_options {
+  width: 80%;
+  font-size: 0.85rem;
+}
+.panel_options p {
+  display: inline;
+  margin-left: 15px;
+}
+
+.panel_deals {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+/* Hero Section */
+.hero_section {
+  background-image: url(assets/img/hero_image.jpg);
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero_msg {
+  background-color: #fff;
+  color: #0f1111;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 0.85rem;
+  width: 97%;
+  margin-bottom: 25px;
+  /* pure dive ko ek positioon dene k liye */
+  /* bottom: 25px;
+  position: relative; */
+}
+
+.hero_msg a {
+  color: #007185;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+/* shop section */
+.shop_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box {
+  /* border: 2px solid black; */
+  height: 400px;
+  width: 23%;
+  background-color: #fff;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+}
+
+.box_img {
+  height: 300px;
+  background-size: cover;
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.box_content {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box_content p {
+  color: #007185;
+}
+
+.box_content h2 {
+  font-size: 1rem;
+}
+
+/* footer */
+footer {
+  margin-top: 15px;
+}
+.foot_pabel1 {
+  background-color: #37475a;
+  color: #fff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.foot_panel2 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #222f3d;
+  color: #fff;
+  height: 300px;
+}
+.foot_panel2 p {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+ul {
+  margin-top: 2.5rem;
+}
+.foot_panel2 ul a {
+  /* display block se sare ke sare ek line me ek k niche ek stack ho gye */
+  font-size: 0.85rem;
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 10px;
+  color: #dddddd;
+}
+
+/* panel 3 */
+.foot_panel3 {
+  height: 70px;
+  background-color: #222f3d;
+  color: #fff;
+  border-top: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot_panel3 .logo {
+  background-image: url(assets/img/amazon_logo.png);
+  background-size: cover;
+  width: 100px;
+}
+
+/* panel 4 */
+.foot_panel4 {
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+  font-size: 0.7rem;
+  text-align: center;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.pages {
+  /* font-size: 0.7rem;
+  text-align: center; */
+  padding-top: 25px;
+}
+.pages a {
+  text-decoration: none;
+  color: white;
+}
+.copyright {
+  padding-top: 5px;
+  /* font-size: 0.7rem;
+  text-align: center; */
+}
+
+/* above some lines are similar and writing same code twice 
+not a good practice this is why we commented these and write it on 4th panel */
